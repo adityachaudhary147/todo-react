@@ -1,0 +1,34 @@
+.login {
+  width: 40%;
+  border-radius: 25px;
+  background: #eee;
+  margin-top: 80px;
+  width: 30%;
+  padding: auto;
+  padding-bottom: 13px;
+}
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  height: 3em;
+  padding-left: 15px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 2fr;
+  row-gap: 1em;
+  align-items: center;
+  justify-items: center;
+}
+.grid-item {
+  align-self: center;
+}
+.btn-login {
+  width: 100%;
+  padding: 6px;
+  font-size: large;
+  font-weight: 800;
+}
+.btn-login:hover {
+  opacity: 0.6;
+}

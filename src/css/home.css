@@ -1,0 +1,155 @@
+.taskList {
+  margin: auto;
+  color: black;
+}
+body {
+  height: 100%;
+  margin: 0;
+}
+.form-create {
+  margin: auto;
+}
+li {
+  height: auto;
+  text-align: center;
+  font-size: 23px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+.form-create input {
+  height: 25px;
+  width: 150px;
+}
+input[name="description"] {
+  height: 40px;
+  width: 150px;
+}
+.form-create label {
+  margin-right: 50px;
+}
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.inline {
+  display: inline;
+}
+
+h2,
+h1 {
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+}
+.lost a,
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: pink;
+  text-decoration: none;
+}
+.create-logo {
+  display: inline;
+}
+.logout-btn,
+.multi-delete-btn {
+  background-color: #d9534f;
+  color: white;
+  border-radius: 15px;
+  padding: 10px;
+}
+.delete-btn {
+  background-color: #f0ad4e;
+  color: white;
+  border-radius: 15px;
+}
+.edit-btn {
+  background-color: #5cb85c;
+  color: white;
+  border-radius: 15px;
+}
+.logout-btn:hover,
+.delete-btn:hover,
+.edit-btn:hover {
+  opacity: 0.7;
+}
+a {
+  text-decoration: none;
+}
+.checked {
+  opacity: 0.3;
+}
+.task {
+  width: 400px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  background-color: #eee;
+}
+.create {
+  padding: 60px;
+  display: inline;
+}
+
+.redstar {
+  color: red;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.grid-nav {
+  display: grid;
+  grid-template-columns: 2fr 5fr 5fr 2fr 1fr;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+}
+
+.head-nav {
+  background-color: #12a4d9;
+  color: whitesmoke;
+  margin-bottom: 20px;
+}
+.btn {
+  width: 100%;
+  padding: 6px;
+  font-size: large;
+  font-weight: 800;
+}
+.btn:hover {
+  opacity: 0.6;
+}
+.task-item {
+  margin: 0 15px;
+}
+.title {
+  width: 100%;
+}
+.flex-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 80px;
+}
+.para {
+  margin-left: 15px;
+}
+.del {
+  position: absolute;
+}
+.head-item {
+  margin: 0 10px;
+}
+.past {
+  background-color: red;
+}
+.today {
+  background-color: #e2d810;
+}
